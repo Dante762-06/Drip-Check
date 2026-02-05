@@ -4,10 +4,10 @@
 #include "HX711.h"
 
 // 1. Credentials
-#define WIFI_SSID "Aarush's S24"
-#define WIFI_PASSWORD "utxr69420"
-#define DATABASE_SECRET "lHSuyf15EMLjdTwqomXLtNIZtNmnBc7DW1QnqyjP" // That long secret code
-#define DATABASE_URL "https://drip-check-d01fa-default-rtdb.firebaseio.com"            // Ends in .firebaseio.com
+#define WIFI_SSID "Wifi Name"
+#define WIFI_PASSWORD "Wifi password"
+#define DATABASE_SECRET // That long secret code
+#define DATABASE_URL // Ends in .firebaseio.com
 
 // 2. Pins from your WORKING code
 const int LOADCELL_DOUT_PIN = 2;
