@@ -5,14 +5,6 @@ import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, si
 
 // 2. Configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyDCmVI_P3RCb5d07GmbY2Gy_QfLg5-1Kms",
-    authDomain: "drip-check-d01fa.firebaseapp.com",
-    databaseURL: "https://drip-check-d01fa-default-rtdb.firebaseio.com",
-    projectId: "drip-check-d01fa",
-    storageBucket: "drip-check-d01fa.firebasestorage.app",
-    messagingSenderId: "1074361514778",
-    appId: "1:1074361514778:web:b0df05275daf535ad20aa3",
-    measurementId: "G-CELZ0D84JH"
 };
 
 // 3. Initialize Firebase
@@ -794,4 +786,5 @@ window.savePatientEdit = function (id) {
             loadAdminPatients();
         })
         .catch(err => alert('Error updating patient: ' + err.message));
+
 };
